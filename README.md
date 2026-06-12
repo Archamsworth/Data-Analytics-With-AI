@@ -31,29 +31,6 @@ git clone https://github.com/Archamsworth/Data-Analytics-With-AI.git
 cd Data-Analytics-With-AI
 ```
 
-## Usage
-
-### Quick Start Example
-
-```python
-from src.preprocessing import DataProcessor
-from src.analysis import DataAnalyzer
-from src.visualization import Plotter
-
-# Load and process data
-processor = DataProcessor()
-df = processor.load_data('data/raw/dataset.csv')
-df_clean = processor.clean_data(df)
-
-# Analyze data
-analyzer = DataAnalyzer()
-insights = analyzer.generate_insights(df_clean)
-
-# Visualize results
-plotter = Plotter()
-plotter.create_dashboard(df_clean, insights)
-```
-
 ## Key Components
 
 ### Data Preprocessing
