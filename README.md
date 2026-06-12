@@ -22,7 +22,6 @@ This project combines traditional data analytics with modern AI/ML methodologies
 
 - Python 3.8+
 - pip or conda package manager
-- Git
 
 ### Installation
 
@@ -30,36 +29,6 @@ This project combines traditional data analytics with modern AI/ML methodologies
 ```bash
 git clone https://github.com/Archamsworth/Data-Analytics-With-AI.git
 cd Data-Analytics-With-AI
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Project Structure
-
-```
-Data-Analytics-With-AI/
-├── data/                      # Raw and processed data
-│   ├── raw/                   # Original datasets
-│   └── processed/             # Cleaned and transformed data
-├── notebooks/                 # Jupyter notebooks for exploration
-├── src/                       # Source code
-│   ├── preprocessing/         # Data cleaning and transformation
-│   ├── analysis/              # Analytics and statistical methods
-│   ├── models/                # ML model implementations
-│   ├── visualization/         # Plotting and visualization utilities
-│   └── utils/                 # Helper functions
-├── tests/                     # Unit and integration tests
-├── requirements.txt           # Project dependencies
-└── README.md                  # This file
 ```
 
 ## Usage
